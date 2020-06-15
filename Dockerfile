@@ -19,8 +19,8 @@ LABEL maintainer="Paul Bouwer" \
 
 # Create app directory
 #RUN adduser node root
-#RUN mkdir -p /usr/src/app
-#WORKDIR /usr/src/app
+RUN mkdir -p /usr/src/app
+WORKDIR /usr/src/app
 
 # Install app dependencies
 COPY package.json /usr/src/app/
