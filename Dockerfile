@@ -18,8 +18,8 @@ LABEL maintainer="Paul Bouwer" \
       org.label-schema.usage="https://github.com/paulbouwer/hello-kubernetes/README.md"
 
 # Create app directory
-RUN adduser node root
-RUN mkdir -p /usr/src/app
+#RUN adduser node root
+#RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
 # Install app dependencies
